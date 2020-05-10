@@ -27,7 +27,7 @@ Lane line detection pipeline consists of the following steps:
 
 5. Detect lines using Probabilistic Hough Line Transformation; 
 
-6. Separate detected lines into those belonging to the left lane line and rhose belonging to the right lane line. Extrapolate left and right lane lines. 
+6. In `draw_lines` function I separate detected lines into those belonging to the left lane line and those belonging to the right lane line. Based on these two line groups I extrapolated uninterrupted left and right lane lines. 
 
 ### Shortcomings
 
