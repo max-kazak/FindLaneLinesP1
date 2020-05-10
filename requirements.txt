@@ -2,3 +2,5 @@ jupyter
 numpy
 matplotlib
 opencv-python
+Pillow
+moviepy
